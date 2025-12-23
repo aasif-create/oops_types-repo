@@ -21,7 +21,7 @@ public class Interface {
     }}
 /* 1. University is an interface that declares rules for
 publishing results.
-2. publishResult() is an abstract method with no implementation in the interface.
+2. publishResult() is a method with no implementation details.
 3. announce() is a default method that provides common behavior.
 4. College implements publishResult(), providing the actual logic.
 5. Main class uses the interface reference, hiding the

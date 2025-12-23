@@ -25,5 +25,5 @@ publishing results.
 3.announce() is a concrete method that provides common behavior.
 4.College implements publishResult(), providing the actual logic.
 5.Main class uses the abstract class reference, hiding the child
-class implementation is called abstraction
+class implementation is called abstraction.
  */
