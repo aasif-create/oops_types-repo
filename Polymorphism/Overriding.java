@@ -1,23 +1,21 @@
-class Calculator {
-    int add(int a, int b) {
+class Calculator
+{
+    int add(int a, int b)
+    {
         return a + b;
     }
 }
-
 class AdvancedCalculator extends Calculator {
-
     @Override
     int add(int a, int b) {
-        return a + b + 10;   // extra logic
+        return a + b + 10;
     }
 }
-
-public class Overriding {
+public class Overriding
+{
     public static void main(String[] args) {
-
-        Calculator calc = new Calculator();
-        System.out.println(calc.add(10, 20));
-        
+    Calculator calc = new AdvancedCalculator();
+    System.out.println("OVERRIDDEN SUM VALUE :"+calc.add(10, 20));
     }
 }
 /*
