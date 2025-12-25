@@ -11,10 +11,12 @@ class AdvancedCalculator extends Calculator {
         return a + b + 10;
     }
 }
-public class Overriding
+@SuppressWarnings("unused")
+class Overriding
 {
     public static void main(String[] args) {
     Calculator calc = new AdvancedCalculator();
+    System.out.println("Overriding is RUN-TIME POLYMORPHISM");
     System.out.println("OVERRIDDEN SUM VALUE :"+calc.add(10, 20));
     }
 }
@@ -23,5 +25,4 @@ public class Overriding
 2. AdvancedCalculator overrides the add() method.
 3. Method implementation is changed in the child class.
 4. Method call is resolved at runtime.
-5. This is called method overriding.
-*/
+5. This is called method overriding.*/

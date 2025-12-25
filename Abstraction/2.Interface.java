@@ -13,7 +13,8 @@ class College implements University{
         System.out.println("Calculating grades");
         System.out.println("Publishing results to student portal");
     }}
-public class Interface {
+@SuppressWarnings("unused")
+class Interface {
         public static void main(String[] args) {
         University obj = new College();
         obj.announce();

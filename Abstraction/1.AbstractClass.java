@@ -13,7 +13,8 @@ class College extends University {
         System.out.println("Calculating grades");
         System.out.println("Publishing results to student portal");
     }}
-public class AbstractClass {
+@SuppressWarnings("unused")
+class AbstractClass{
     public static void main(String[] args) {
         University obj = new College();
         obj.announce();
