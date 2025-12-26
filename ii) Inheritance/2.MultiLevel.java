@@ -16,7 +16,8 @@ class SportsCar extends Car{
         System.out.println("TURBO MODE ACTIVATED");
     }
 }
-public class MultiLevel {
+@SuppressWarnings("unused")
+class MultiLevel {
     public static void main(String[] args) {
         SportsCar c = new SportsCar();
         System.out.println("BRAND OF THE SPORTSCAR IS :"+c.brand);

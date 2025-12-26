@@ -16,7 +16,8 @@ class Bike extends Vehicle
         System.out.println("riding the BIKE");
     }
 }
-public class Hierarchical {
+@SuppressWarnings("unused")
+class Hierarchical {
     public static void main(String[] args) {
         Car c = new Car();
         System.out.println("BRAND OF THE CAR IS : " + c.brand);
