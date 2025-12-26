@@ -1,6 +1,6 @@
-ADVANCED OOPS CONCEPTS (JAVA)
-POLYMORPHISM : Polymorphism means the same method name can behave differently.
+ADVANCED OOPS CONCEPTS (JAVA):
 
+POLYMORPHISM : Polymorphism means the same method name can behave differently.
 Types of Polymorphism:
 
 1. Compile-Time Polymorphism (Method Overloading):Same method name with different parameters, decided at compile time.
@@ -37,3 +37,11 @@ Ways of Achieving Abstraction
 
 2. Interface     :Provides complete abstraction by defining only method declarations.
                   Example: A Payment interface implemented by different payment apps.
+
+ENCAPSULATION :Encapsulation means binding data and methods together and restricting direct access to data.
+
+How Encapsulation is Achieved :
+
+1. Using Access Modifiers
+2. Data is kept private and accessed through public methods.
+3. Example: Private variables with getters and setters.
